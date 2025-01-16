@@ -1,4 +1,6 @@
 const prompt = require('prompt-sync')();
-let num = prompt('Введите число');
-const result = (num);
-console.log(` ${result} - вот какое число Вы ввели`);
+
+
+let chislo = prompt("Введите число ");
+
+console.log(`Вот какое число Вввели ${chislo}`);
